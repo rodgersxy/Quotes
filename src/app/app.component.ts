@@ -7,10 +7,10 @@ import {Quote} from './quote'
 })
 export class AppComponent {
   quotes = [
-    new Quote(1, 'Good music goes with good food'),
-    new Quote(2, 'Knowledge without wisdom is like water in the sand'),
-    new Quote(3, 'The sun never sets without fresh new'),
-    new Quote(4, 'A good mother knows what children will eat'),
-    new Quote(4, 'Let us always meet each other with a smile, for smile is the beginning of love')
+    new Quote(1, 'Bill Hill', 'Good music goes with good food'),
+    new Quote(2, 'Hadson Marani','Knowledge without wisdom is like water in the sand'),
+    new Quote(3, 'Pio Gama Pito','The sun never sets without fresh new'),
+    new Quote(4, 'Nelson Mandela','A good mother knows what children will eat'),
+    new Quote(4, 'Ken Rodgers','Let us always meet each other with a smile, for smile is the beginning of love')
   ]
 }
