@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { HighlightthroughDirective } from './highlightthrough.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     HeaderComponent,
     QuoteComponent,
     QuoteDetailsComponent,
-    QuoteFormComponent
+    QuoteFormComponent,
+    HighlightthroughDirective
   ],
   imports: [
     BrowserModule,
