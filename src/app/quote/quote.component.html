@@ -1,11 +1,33 @@
 <app-header></app-header>
 <hr>
-<ul>
-    <div *ngFor='let quote of quotes;let i = index'>
-    <li >{{quote.name}}</li>
-    <button (click)='toogleDetails(i)'>show details</button>
 
-    <app-quote-details *ngIf="quote.showDescription"[quote]='quotes' (isComplete)= 'completeQuote($event,i)'></app-quote-details>
+<div class="container fnt">
+<div class="row">
+    <div class="col-md-9 contt">
+            <div *ngFor="let quotes of quote; let i = 'index'">
+                <h4 class="ftn" id="{{i}}" appHighlightthrough>{{quotes.description}}</h4>
+                <button class="btn btn-primary" (click)='toogleDetails(i)'>show Details</button>
+                <div class="row" *ngIf="quotes.showDescription">
+                    <br>
+                    <ul>
+                    <button click ="upVote(i)">upVote</button>
+                    <br>
+                    <span>Total:{{quotes.upVote}}</span>
+                    <br>
+                    <button (click)="downVote(i)">downVote</button>
+                    <br>
+                    <span>Totals:{{quotes.downVote}}</span>
+                    <br>
+                </ul>
+                <app-quote-details [quote]='quotes' (isComplete)= 'deleteQuote($event,i)'></app-quote-details><br>
+                </div>
+    </div>
 </div>
-</ul>
-<p *ngIf='quotes.length'></p>
+<div class="col-md-3 contt">
+<app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+</div>
+</div>
+ </div> 
+ <div class="footer">
+     <h1>2019</h1>
+ </div>
