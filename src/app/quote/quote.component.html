@@ -1,12 +1,12 @@
 <app-header></app-header>
 <hr>
 
-<div class="container fnt">
+<div class="container">
 <div class="row">
-    <div class="col-md-9 contt">
+    <div class="col-md-9">
             <div *ngFor="let quotes of quote; let i = 'index'">
                 <h4 class="ftn" id="{{i}}" appHighlightthrough>{{quotes.description}}</h4>
-                <button class="btn btn-primary" (click)='toogleDetails(i)'>show Details</button>
+                <button class="btn btn-primary" (click)='toogleDetails(i)'>View Details</button>
                 <div class="row" *ngIf="quotes.showDescription">
                     <br>
                     <ul>
@@ -23,11 +23,11 @@
                 </div>
     </div>
 </div>
-<div class="col-md-3 contt">
+<div class="col-md-3">
 <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
 </div>
 </div>
  </div> 
- <div class="footer">
-     <h1>2019</h1>
+ <div class="jumbotron">
+     <h1>Happy New Month ,@2019</h1>
  </div>
