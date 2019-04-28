@@ -1,6 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import {Quote} from '../quote'
-import { unusedValueExportToPlacateAjd } from '@angular/core/src/render3/interfaces/i18n';
+
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
