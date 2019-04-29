@@ -1,5 +1,9 @@
 .footer{
     font-weight: bold;
-    color: blue;
+    color: whitesmoke;
     background-color: #262626;
+    text-transform: uppercase;
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 100%;
 }
