@@ -10,7 +10,7 @@
                 <div class="row" *ngIf="quotes.showDescription">
                     <br>
                     <ul>
-                    <button click ="upVote(i)">upVote</button>
+                    <button class="btn btn-dark" (click) ="upVote(i)">upVote</button>
                     <br>
                     <span>Total:{{quotes.upVote}}</span>
                     <br>
@@ -28,6 +28,7 @@
 </div>
 </div>
  </div> 
+ <hr>
  <div class="col-md-12 col-sm-12 col-xs-12 text-center">
      <div class="footer">
      <h1>Happy New Month</h1>
