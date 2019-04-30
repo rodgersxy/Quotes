@@ -16,6 +16,15 @@ User can as well delete the quote if so wish.
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Installation
+To build and run your application ensure; Node, Angular ,typeScript and watchman are are installed(the latest versions). Also install your favorite code editot. I used Visual Studion Code.
+To build your first app to your terminal ng new (the name of your project). AFTER new project has been created (cd to the new project) then run ng serve.
+
+## Known Bugs
+Havent noticed one but you are free to point one if any.
+
+### Technologies used
+
+
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
