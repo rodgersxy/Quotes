@@ -23,7 +23,11 @@ To build your first app to your terminal ng new (the name of your project). AFTE
 Havent noticed one but you are free to point one if any.
 
 ### Technologies used
-
+Visual Studio Code Editor
+NodeJs
+Angular 
+TypeScript
+watchman
 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
