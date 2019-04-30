@@ -29,6 +29,15 @@ Angular,
 TypeScript,
 watchman.
 
+## BDD
+| Input         | Behaviour                   | Output                    |
+|---------------|-----------------------------|---------------------------|
+| toogleDetails | on click the button         | view details of the quote |
+| quote form    | on submit button            | to display the details    |
+| upVote        | click the upVote button     | positive vote             |
+| downVote      | clickin the downVote button | negative vote             |
+| delete button | button click                | to delete the quote       |
+
 
 ## Support and contact details
 If you run into an error, or contribution to the code feel free. You can also contact rodgersny99@gmail.com
