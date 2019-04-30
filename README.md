@@ -30,6 +30,11 @@ TypeScript
 watchman
 
 
+## Support and contact details
+If you run into an error, or contribution to the code feel free. You can also contact rodgersny99@gmail.com
+
+
+
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
@@ -43,3 +48,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+##License
+copyright (c) 2019 {Rodgers Nyakundi Mogaka}
+Anyone is free to use the code and improve it. No resctrions unless on commercial purposes
